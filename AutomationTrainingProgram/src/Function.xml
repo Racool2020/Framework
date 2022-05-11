@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="Adhoc">
+ <parameter name="browsers" value=""></parameter>
+ <test name="Regression">
+ <classes>
+ <class name="pitt.AutomationTrainingProgram.Browsersd.geckodriver"></class>
+ <class name="pittpitt.AutomationTrainingProgram.Singout"></class>
+ <class name="pittpitt.AutomationTrainingProgram.Execution"></class> 
+ </classes>  
+ </test>
+ </suite> 
